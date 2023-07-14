@@ -1,2 +1,32 @@
+main .container-fluid{
+    height: calc(100vh - 58px)!important;
+}
+.border{
+    border: 2px dashed yellow;
+}
 
-
+ul {
+    list-style: none;
+    padding-left: 0!important;
+}
+/* main li div>span{
+    display: none;
+} */
+.blaze{
+  color: white;
+  background-color: lightblue;  
+  padding: 0.2rem 0.3rem ;
+  border-radius: 15px;
+  display: inline-block;
+}
+.title{
+    display: inline-block;
+}
+.top-cont{
+    margin: 22;
+    padding: 12px;
+}
+/* parte rensponsive */
+.list-group-item:first-child{
+    width: 40%;
+}
